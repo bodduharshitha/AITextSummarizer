@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.png" type="image/png"> <!-- Link to your PNG favicon -->
+</head>
+<body>
+    <header>
+        <h1>AI Text Summarizer</h1>
+        <p>Welcome to the AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs and is built using Express with Node.js to provide concise summaries of long texts...</p>
+    </header>
+
+    <main class="container">
+        <div class="text-box">
+            <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 10 chars. Max length is 500 chars.)" maxlength="1000"></textarea>
+            <button id="submit-button" class="submit-button" disabled>
+                <span class="submit-button-text">SummarizeMe</span>
+            </button>
+        </div>
+
+        <!-- Display area for loading message and summarized text -->
+        <div id="output-div" class="output-div">
+            <p id="loading-message">Please wait...</p>
+            <textarea id="summarized_text" name="summarized_text" placeholder="Your summarized text will appear here..." readonly></textarea>
+            <button id="copy-button" class="copy-button">Copy</button>
+        </div>
+    </main>
+
+    <section class="cta-section">
+        <div class="cta-content">
+            <div class="cta-text">
+                <h2>Developed by Boddu Harshitha</h2>
+                <p>REVA University, Bengaluru</p>
+<p>Insights from GeeksforGeeks API Bootcamp: Summer Edition - Sponsored by Postman.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating contact container -->
+    <div class="floating-contact">
+        <a href="mailto:bodduharshitharoyal@gmail.com" class="icon" title="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/boddu-harshitha" class="icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
