@@ -7,8 +7,6 @@ The app uses Facebook's BART Large CNN model for generating summaries.
 ✨ Summarizes long-form text into concise summaries.
 🔥 Easy-to-use API integration with Hugging Face.
 🎨 Interactive UI with hover effects and responsive design.
-⚙️ Firebase authentication for user login and signup.
-📱 Mobile-friendly design with Tailwind CSS and React.js.
 
 🛠️ Technologies Used
 
